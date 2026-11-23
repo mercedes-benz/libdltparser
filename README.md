@@ -72,7 +72,7 @@ Necessary dependencies for building yourself are:
   - `cmake -DCMAKE_BUILD_TYPE=Debug -Dpybind11_DIR="/.../cmake/pybind11" ..` (for Debug)
   - `sudo cmake --build . --target install` (required only when the installation prefix requires elevated permissions)
   - *Or*
-  - `cmake -DCMAKE_BUILD_TYPE=Debug -Dpybind11_DIR="/.../cmake/pybind11" ..` (for Release)
+  - `cmake -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR="/.../cmake/pybind11" ..` (for Release)
   - `sudo cmake --build . --target install` (required only when the installation prefix requires elevated permissions)
 
 Will install files under the default path `C:/Program Files/libdltparser/` on Windows or `/usr/local/...` on Linux.
